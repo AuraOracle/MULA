@@ -1,0 +1,17 @@
+{
+    "id": "f6a1a8b3-f674-47bc-8476-6f36b82f8da8",
+    "scriptName": "移除思维链和多余标签v2",
+    "findRegex": "/(.*\\</thinking>\\n|.*\\<content[\\s\\S]*?>\\n|</content>|<(/)content_format>)/gs",
+    "replaceString": "",
+    "trimStrings": [],
+    "placement": [
+        2
+    ],
+    "disabled": false,
+    "markdownOnly": true,
+    "promptOnly": true,
+    "runOnEdit": true,
+    "substituteRegex": false,
+    "minDepth": null,
+    "maxDepth": null
+}

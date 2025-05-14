@@ -1,0 +1,17 @@
+{
+    "id": "cf5586b8-8e38-4858-816f-55d00a01fea5",
+    "scriptName": "用户消息添加伪Human",
+    "findRegex": "^([\\s\\S]*)$",
+    "replaceString": "\bHuman: <inputs>\n$1\n</inputs>",
+    "trimStrings": [],
+    "placement": [
+        1
+    ],
+    "disabled": false,
+    "markdownOnly": false,
+    "promptOnly": true,
+    "runOnEdit": true,
+    "substituteRegex": false,
+    "minDepth": null,
+    "maxDepth": 1
+}
